@@ -4,26 +4,41 @@ import "../Styles/Homepage.css"
 const Navbar = () => {
   return (
     <>
-     <nav className="main-nav">
+      <nav className="main-nav">
         <h1>OpenCloudBSS</h1>
         <div className="nav-links">
-            <a href="">Consumer</a>
-            <a href="">Commercial</a>
-            <span className="tag">Coming soon</span>
-            <a href="">Shop</a>
-            <a href="">Support</a>
+          <a href="">Consumer</a>
+          <a href="">Commercial</a>
+          <span className="tag">Coming soon</span>
+          <a href="">Shop</a>
+          <a href="">Support</a>
         </div>
-        <input type="text"/>
+        <input type="text" />
         <span>Search</span>
         <img
-        src={require("../Assets/seach.png")}
-        alt=""
-        className="search-img"
-        width={"30px"}
-      />
+          src={require("../Assets/seach.png")}
+          alt=""
+          className="search-img"
+          width={"30px"}
+        />
+
+
         <div className="nav-icons">
+          <img
+            src={require("../Assets/user.png")}
+            alt=""
+         
+            width={"30px"}
+          />
+          <img
+            src={require("../Assets/notification.png")}
+            alt=""
+         
+            width={"30px"}
+          />
         </div>
-    </nav>
+
+      </nav>
     </>
   )
 }

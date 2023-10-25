@@ -24,7 +24,7 @@
 }
 
 .main-nav input{
-    width: 200px;
+    width: 350px;
     height: 30px;
     border-radius: 20px;
     border: none;
@@ -32,23 +32,23 @@
     box-shadow: inset 0 0 2px #000000;
 }
 
-.main-nav img, span {
+.main-nav .search-img, span {
     position: absolute;
     color: white;
 }
 
-.main-nav img{
-    left: 990px;
+.main-nav .search-img{
+    left: 760px;
 }
 
 .main-nav span{
-    left: 1020px;
+    left: 800px;
     margin-top: 1px;
 }
 
 .nav-links .tag{
     position: absolute;
-    left: 490px;
+    left: 370px;
     margin-top:-16px;
     background-color: #DC0918;
     padding: 0 5px 0 5px;
@@ -61,3 +61,16 @@
     color: white;
 }
 
+
+.nav-icons{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 15%;
+    
+}
+
+.nav-icons img{
+    border-radius: 50%;
+}
