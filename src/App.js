@@ -1,10 +1,13 @@
-import Homepage from "./Pages/homepage";
-
+import Content from "./Pages/Content";
+import Footer from "./Pages/Footer";
+import Navbar from "./Pages/Navbar";
 
 function App() {
   return (
     <div className="App">
-       <Homepage/>
+       <Navbar/>
+       <Content/>
+       <Footer/>
     </div>
   );
 }

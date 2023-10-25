@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/Homepage.css"
 
-const Homepage = () => {
+const Navbar = () => {
   return (
     <>
      <nav className="main-nav">
@@ -15,7 +15,12 @@ const Homepage = () => {
         </div>
         <input type="text"/>
         <span>Search</span>
-        <i className="fa fa-search icon"></i>
+        <img
+        src={require("../Assets/seach.png")}
+        alt=""
+        className="search-img"
+        width={"30px"}
+      />
         <div className="nav-icons">
         </div>
     </nav>
@@ -23,4 +28,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Navbar
