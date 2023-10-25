@@ -1,15 +1,15 @@
 import React from 'react'
 
-const MinorCard = () => {
+const MinorCard = ({data}) => {
   return (
     <div className="card shadow">
       <div className='ribbon'>
-        <p>Best value</p>
+        <p>Best Value</p>
       </div>
       <ul>
         <li className="pack">
           <div className="align">
-            <h1>Swish 400</h1>
+            <h1>Swish {data.plan}</h1>
           </div>
         </li>
         <li>
@@ -57,12 +57,12 @@ const MinorCard = () => {
         </div>
         <li>
           <div className="price align">
-            <h1>$45</h1>
+            <h1>${data.price}</h1>
             <p>/per month</p>
           </div>
         </li>
         <li>
-          <button className="btn">Pay $45</button>
+          <button className="btn">Pay ${data.actualPrice}</button>
         </li>
       </ul>
     </div>

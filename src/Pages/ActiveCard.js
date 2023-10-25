@@ -1,15 +1,15 @@
 import React from 'react'
 
-const ActiveCard = () => {
+const ActiveCard = ({data}) => {
   return (
     <div className="card active">
       <div className='ribbon'>
-        <p>Best value</p>
+        <p>Best {data.plan}</p>
       </div>
       <ul>
         <li className="pack">
           <div className="align">
-            <h1>Swish 400</h1>
+            <h1>Swish {data.plan}</h1>
           </div>
         </li>
         <li>
@@ -62,7 +62,7 @@ const ActiveCard = () => {
           </div>
         </li>
         <li>
-          <button className="btn">Pay $45</button>
+          <button className="btn">Pay ${data.price}</button>
         </li>
       </ul>
     </div>
