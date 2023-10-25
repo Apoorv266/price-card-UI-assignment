@@ -4,7 +4,7 @@ const ActiveCard = ({data}) => {
   return (
     <div className="card active">
       <div className='ribbon'>
-        <p>Best {data.plan}</p>
+        <p>Best Value</p>
       </div>
       <ul>
         <li className="pack">
