@@ -3,6 +3,7 @@ import "../Styles/Body.css";
 import ActiveCard from "./ActiveCard";
 import MinorCard from "./MinorCard";
 const Content = () => {
+  
   return (
     <div className="main-body">
       <section className="body-head">
